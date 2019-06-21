@@ -35,6 +35,7 @@ private fun convertYUV420888ToNV21(proxy: ImageProxy): ByteBuffer {
  * @see ImageFormat.NV16
  * @see ImageFormat.NV21
  */
+@Deprecated("Not working this. has many bugs?")
 fun Frame.Builder.setImageData(image: ImageProxy): Frame.Builder {
     when (image.format) {
         ImageFormat.YUV_420_888 -> {

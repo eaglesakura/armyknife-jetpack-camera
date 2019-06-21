@@ -4,7 +4,9 @@ apply(from = "../dsl/bintray.gradle")
 
 dependencies {
     "api"("com.eaglesakura.armyknife.armyknife-runtime:armyknife-runtime:1.3.1")
-    "api"("com.google.android.gms:play-services-vision:18.0.0")
+    "compileOnly"("com.google.android.gms:play-services-vision:18.0.0")
+    "api"("com.google.firebase:firebase-ml-vision:21.0.0")
+
     "api"("androidx.core:core:1.0.2")
     "api"("androidx.core:core-ktx:1.0.2")
 
