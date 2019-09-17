@@ -26,7 +26,7 @@ private fun convertYUV420888ToNV21(proxy: ImageProxy): ByteBuffer {
 }
 
 /**
- * setup Frame builder from Jetpack's ImagProxy.
+ * setup Frame builder from Jetpack's ImageProxy.
  *
  * Supported ImageFormat is [YUV_420_888 | NV16 | NV21],
  * or Mobile VISION api supported format.
